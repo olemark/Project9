@@ -1,0 +1,125 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    font-size: 11px;
+    color: #2d2a2b;
+}
+
+img {
+    border: none;
+}
+
+html {
+    height: 100%;
+}
+
+header {
+    background-color: #af2024;
+    padding: 13px 13px;
+    margin: auto;
+}
+
+body {
+    height: auto !important;
+    position: relative;
+    background-color: gray;
+    font-size: 13px;
+    color: white;
+    margin: auto;
+    padding-bottom: 454px;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    /* padding: .4em 1em; */
+    position: relative;
+    text-align: center;
+    background-color: #000;
+    line-height: 100px;
+}
+
+.ui-dialog .ui-dialog-title {
+    float: left;
+    margin: .1em 0;
+    white-space: nowrap;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #fff;
+    font-size: 24px;
+
+}
+
+.email {
+    display: block;
+    float: right;
+    width: 384px;
+    line-height: 60px;
+    font-size: 22px !important;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.enter {
+    max-width: 145px;
+    font-size: 22px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    border: #b7b7b7;
+
+}
+
+.password {
+    background-color: #bbbbbb;
+    /*border: none;*/
+    line-height: 60px;
+    display: block;
+    width: 528px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 29px;
+    font-size: 24px !important;
+    font-weight: bold;
+}
+
+.ui-widget-content a.facebook {
+    background-color: #4a68a9;
+    line-height: 60px;
+    color: white;
+    display: block;
+    width: 528px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.ui-dialog {
+    width: 750px !important;
+}
+
+.ui-dialog .ui-dialog-content {
+    position: relative;
+    border: 0;
+    padding: 40px 92px 166px 111px!important;
+    background: none;
+    overflow: auto;
+}
