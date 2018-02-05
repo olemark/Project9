@@ -42,6 +42,10 @@ body {
     margin: auto;
     padding-bottom: 454px;
 }
+.opener  {
+    color: black !important;
+    background-color: #af2024 !important;
+}
 
 .ui-dialog .ui-dialog-titlebar {
     /* padding: .4em 1em; */
@@ -66,7 +70,8 @@ body {
 .email {
     display: block;
     float: right;
-    width: 384px;
+    max-width: 384px;
+    width: 100%;
     line-height: 60px;
     font-size: 22px !important;
 }
@@ -77,6 +82,7 @@ body {
 
 .enter {
     max-width: 145px;
+    width: 100%;
     font-size: 22px;
     display: inline-block;
     text-align: center;
@@ -87,10 +93,11 @@ body {
 
 .password {
     background-color: #bbbbbb;
-    /*border: none;*/
+    border: none;
     line-height: 60px;
     display: block;
-    width: 528px;
+    max-width: 528px;
+    width: 100%;
     margin: auto;
     text-align: center;
     margin-top: 40px;
@@ -104,16 +111,23 @@ body {
     line-height: 60px;
     color: white;
     display: block;
-    width: 528px;
+    width: 100%;
+    max-width: 528px;
     margin: auto;
     text-align: center;
     margin-top: 30px;
     font-size: 24px;
     text-transform: uppercase;
 }
+.text {
+    text-align: center;
+    font-size: 24px
+}
 
 .ui-dialog {
-    width: 750px !important;
+    max-width: 750px !important;
+    width: 100% !important;
+    padding: 0;
 }
 
 .ui-dialog .ui-dialog-content {
@@ -122,4 +136,14 @@ body {
     padding: 40px 92px 166px 111px!important;
     background: none;
     overflow: auto;
+}
+.ui-widget-content {
+    border: none !important;
+}
+
+.ui-widget-header {
+    border: none !important;
+   }
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+    border-radius: 0;
 }
